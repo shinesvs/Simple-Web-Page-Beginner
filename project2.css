@@ -1,0 +1,126 @@
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Karla;
+    font-weight:400;
+    
+  }
+  
+  *,*:before,*:after{
+    box-sizing: inherit;
+  }
+  body{
+    padding: 20px;
+    
+  }
+  
+  h2,h4,p{
+    margin:0;
+  }
+  
+  #card {
+      
+      width: 600px;
+      height: 400px; 
+      box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.68);
+      border-radius: 5px;
+      overflow: hidden;
+  }
+  
+  #top-section {
+      
+      width: 100%;
+      height: 45%;
+      padding: 20px;
+    }
+  
+  #top-section p{
+    color:#98a6bd;
+  }
+  #top-section h2{
+    margin-bottom: 15px;
+    color:#178f8c;
+  }
+  
+  #top-section h4{
+    margin-bottom: 10px;
+    color:#c0df34;
+  }
+  
+  #bottom-section {
+      width: 100%;
+      height: 55%;
+      vertical-align: top;
+      color: white;
+      
+      
+  }
+  
+  #price,#price-frequency {
+    display: inline-block;
+    
+  }
+  
+  #price{
+    font-weight:700;
+    font-size: 1.4rem;
+    
+  }
+  #price-frequency{
+    font-size: 0.8rem;
+    vertical-align: middle;
+    opacity: 0.6;
+  }
+  #price-container{
+    margin-bottom: 10px
+  }
+  
+  
+  
+  #bottom-left-section {
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      vertical-align: top;
+      background-color: #178f8c;
+      padding: 30px;
+      
+  }
+  
+  #bottom-left-section h4 {
+    margin-bottom: 15px;
+    
+  }
+  
+  #bottom-left-section p{
+    margin-bottom: 40px;
+  }
+  #bottom-right-section {
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      vertical-align: top;
+      background-color: #2EBFBD; 
+      padding: 30px;
+      
+  }
+  button{
+    width: 100%;
+    border:0;
+     color: white;
+    background-color: #c0df34;
+    padding: 10px;
+    
+  }
+  
+  ul{
+    padding:0;
+    list-style: none;
+    opacity: 0.6;
+    font-size: 0.8rem;
+  }
+  
+  button:hover{
+    cursor: pointer;
+    
+  }
